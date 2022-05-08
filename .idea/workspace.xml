@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f47a2601-d879-45b2-b8f4-e0fadbeb3fc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eos.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/DataSourceAdapterInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/DatabaseAdapter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/JsonAdapter.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Adapter/UserAdapterManager.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/UserControllerTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-    </list>
+    <list default="true" id="f47a2601-d879-45b2-b8f4-e0fadbeb3fc9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,23 +168,23 @@
   </component>
   <component name="RunManager" selected="PHPUnit.UserControllerTest.testDeleteUser">
     <configuration name="UserControllerTest.testCreateUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="UserControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/UserControllerTest.php" method="testCreateUser" scope="Method" />
+      <TestRunner class="UserControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/UserAPITest.php" method="testCreateUser" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="UserControllerTest.testDeleteUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="UserControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/UserControllerTest.php" method="testDeleteUser" scope="Method" />
+      <TestRunner class="UserControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/UserAPITest.php" method="testDeleteUser" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="UserControllerTest.testGetCreateUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="UserControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/UserControllerTest.php" method="testGetCreateUser" scope="Method" />
+      <TestRunner class="UserControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/UserAPITest.php" method="testGetCreateUser" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="UserControllerTest.testGetUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="UserControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/UserControllerTest.php" method="testGetUser" scope="Method" />
+      <TestRunner class="UserControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/UserAPITest.php" method="testGetUser" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="UserControllerTest.testUpdateUser" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="UserControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/UserControllerTest.php" method="testUpdateUser" scope="Method" />
+      <TestRunner class="UserControllerTest" configuration_file="$PROJECT_DIR$/phpunit.xml.dist" file="$PROJECT_DIR$/tests/UserAPITest.php" method="testUpdateUser" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -232,7 +215,7 @@
       <workItem from="1651694870767" duration="4470000" />
       <workItem from="1651704761510" duration="33915000" />
       <workItem from="1651956816402" duration="13008000" />
-      <workItem from="1652021863136" duration="4523000" />
+      <workItem from="1652021863136" duration="5174000" />
     </task>
     <servers />
   </component>

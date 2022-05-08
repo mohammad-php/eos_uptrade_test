@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Adapter;
+namespace App\Adapter\DataSource;
 
 use App\Entity\User;
 use JsonException;

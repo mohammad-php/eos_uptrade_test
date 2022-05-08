@@ -3,6 +3,7 @@
 namespace App\Adapter;
 
 use App\Entity\User;
+use App\Adapter\DataSource\DataSourceAdapterInterface;
 
 class UserAdapterManager
 {

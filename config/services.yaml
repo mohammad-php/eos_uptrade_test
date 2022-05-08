@@ -24,9 +24,9 @@ services:
     # please note that last definitions always *replace* previous ones
     App\Adapter\UserAdapterManager:
         arguments:
-            $adapter: '@App\Adapter\JsonAdapter'
-#            $adapter: '@App\Adapter\DatabaseAdapter'
+            $adapter: '@App\Adapter\DataSource\JsonAdapter'
+#            $adapter: '@App\Adapter\DataSource\DatabaseAdapter'
 
-    App\Adapter\JsonAdapter:
+    App\Adapter\DataSource\JsonAdapter:
         arguments:
             $file: '%kernel.project_dir%/Users.json'

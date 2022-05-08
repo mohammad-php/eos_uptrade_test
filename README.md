@@ -25,8 +25,8 @@ Import file in root directory (eos.uptrade.testaufgabe.postman_collection.json) 
 #### Changing Datasource
 ##### You can choose the Datasource(Database, Json) from services.yaml file under App\Adapter\UserAdapterManager section, below you can see the available adapters:
 ```
-$adapter: '@App\Adapter\DatabaseAdapter'
-$adapter: '@App\Adapter\JsonAdapter'
+$adapter: '@App\Adapter\DataSource\DatabaseAdapter'
+$adapter: '@App\Adapter\DataSource\JsonAdapter'
 ```
 
 #### Unit Testing

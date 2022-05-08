@@ -1,0 +1,32 @@
+controllers:
+    resource: ../src/Controller/
+    type: annotation
+
+kernel:
+    resource: ../src/Kernel.php
+    type: annotation
+
+users_get:
+    path: /api/v1/users/{id}
+    controller: App\Controller\UserController::get
+    methods: [GET]
+
+users_get_all:
+    path: /api/v1/users
+    controller: App\Controller\UserController::getAll
+    methods: [GET]
+
+users_add:
+    path: /api/v1/users
+    controller: App\Controller\UserController::add
+    methods: [POST]
+
+users_update:
+    path: /api/v1/users
+    controller: App\Controller\UserController::update
+    methods: [PUT]
+
+users_delete:
+    path: /api/v1/users
+    controller: App\Controller\UserController::delete
+    methods: [DELETE]

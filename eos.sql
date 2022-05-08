@@ -1,0 +1,2 @@
+CREATE DATABASE `eos`;
+CREATE DATABASE `eos_test`;
